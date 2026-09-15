@@ -17,20 +17,89 @@
 
                 <!--Left Hand side Elements-->
                 <div class="font-resizing">
-                    <p class="theams dark-theam-icon top-nav-bar-element">A</p>
-                    <p class="theams light-theam-icon top-nav-bar-element">A</p>
+                    <p class="theams dark-theam-icon font-resizing-elements top-nav-bar-element">A</p>
+                    <p class="theams light-theam-icon font-resizing-elements top-nav-bar-element">A</p>
 
                     <!--Resizing Buttons-->
-                    <button class="resize-button negative-fontsize top-nav-bar-element">-</button>
-                    <button class="resize-button fontsize top-nav-bar-element">A</button>
-                    <button class="resize-button positive-fontsize top-nav-bar-element">+</button>
+                    <button class="resize-button negative-fontsize font-resizing-elements top-nav-bar-element">-</button>
+                    <button class="resize-button fontsize font-resizing-elements top-nav-bar-element">A</button>
+                    <button class="resize-button positive-fontsize font-resizing-elements top-nav-bar-element">+</button>
                 </div>
             </div>
 
             <!--Second Navigation Bar-->
             <div class="nav-bar">
-
+                <div class="uucms-image nav-bar-element">
+                    <img src="./images/UUCMS.png" alt="UUCMS"></img>
+                </div>
+                
+                <div class="cm-image nav-bar-element">
+                    <img src="./images/CM.png" alt="CM">
+                </div>
+                
+                <div class="govt-image nav-bar-element">
+                    <img src="./images/govt_logo.png" alt="GOVT LOGO">
+                </div>                
             </div>
         </header>
+
+        <!--Main Content-->
+        <main>
+            <!-- Back - to - home -->
+            
+            <div class="main-content-elements back-to-home">
+                <i class="fa-solid fa-backward"></i>
+                Back To Home
+            </div>
+            
+            <!--Main Login Content-->
+            <div class="main-content-elements outer-login-box">
+                <div class="main-content-elements login-box">
+                    <div class="main-content-elements login-type">
+                        <div class="main-content-elements login-type-element login-type-admin">State Admin</div>
+                        <div class="main-content-elements login-type-element login-type-university">University</div>
+                        <div class="main-content-elements login-type-element login-type-college">College/PG Center</div>
+                        <div class="main-content-elements login-type-element login-type-student">Student</div>
+                        <div class="main-content-elements login-type-element login-type-ksou">KSOU Reg Center</div>
+                    </div>
+                    
+                    <!--User Name & Password-->
+                    <div class="main-content-elements login-data">
+                        <!--User Name-->
+                        <div class="main-content-elements login-data-username">
+                            <div class="log-data-names">
+                                <p>Username</p>
+                            </div>
+                            <div class="input-username">
+                                <input class="inputs" type="text" placeholder="Enter username">
+                            </div>
+                        </div>
+                        
+                        <!--Password-->
+                        <div class="main-content-elements login-data-password">
+                            <div class="log-data-names">
+                                <p>Password</p>
+                            </div>
+
+                            <div class="password-eyes">
+
+                                <div class="input-password">
+                                    <input class="inputs" type="text" placeholder="Enter password">
+                                </div>
+                                
+                                <div class="hide-or-show">
+                                    <i class="fa-solid fa-eye-slash"></i>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Forgot Password-->
+                        <div class="forgot-password">
+                            <p>Forgot Password?<a class="forgot-pass-link" href="https://uucms.karnataka.gov.in/Contact/ForgotPassword">Click Here</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
     </body>
 </html>
