@@ -17,13 +17,13 @@
 
                 <!--Left Hand side Elements-->
                 <div class="font-resizing">
-                    <p class="theams dark-theam-icon font-resizing-elements top-nav-bar-element">A</p>
-                    <p class="theams light-theam-icon font-resizing-elements top-nav-bar-element">A</p>
+                    <p class="theams dark-theam-icon font-resizing-elements cursor-pointor top-nav-bar-element">A</p>
+                    <p class="theams light-theam-icon font-resizing-elements cursor-pointor top-nav-bar-element">A</p>
 
                     <!--Resizing Buttons-->
-                    <button class="resize-button negative-fontsize font-resizing-elements top-nav-bar-element">-</button>
-                    <button class="resize-button fontsize font-resizing-elements top-nav-bar-element">A</button>
-                    <button class="resize-button positive-fontsize font-resizing-elements top-nav-bar-element">+</button>
+                    <button class="resize-button negative-fontsize font-resizing-elements cursor-pointor top-nav-bar-element">-</button>
+                    <button class="resize-button fontsize font-resizing-elements cursor-pointor top-nav-bar-element">A</button>
+                    <button class="resize-button positive-fontsize font-resizing-elements cursor-pointor top-nav-bar-element">+</button>
                 </div>
             </div>
 
@@ -39,7 +39,11 @@
                 
                 <div class="govt-image nav-bar-element">
                     <img src="./images/govt_logo.png" alt="GOVT LOGO">
-                </div>                
+                </div>
+                <div class="cursor-pointor translate-language">
+                    <p class="language-letters language-hindi">अ</p>
+                    <p class="language-letters language-english">A</p>
+                </div>
             </div>
         </header>
 
@@ -47,7 +51,7 @@
         <main>
             <!-- Back - to - home -->
             
-            <div class="main-content-elements back-to-home">
+            <div class="main-content-elements cursor-pointor back-to-home">
                 <i class="fa-solid fa-backward"></i>
                 Back To Home
             </div>
@@ -95,7 +99,36 @@
 
                         <!--Forgot Password-->
                         <div class="forgot-password">
-                            <p>Forgot Password?<a class="forgot-pass-link" href="https://uucms.karnataka.gov.in/Contact/ForgotPassword">Click Here</a></p>
+                            <div class="forgot-password-items">
+                                <p class="forgot-items">Forgot Password?</p>
+                                <a class="forgot-pass-link forgot-items" href="https://uucms.karnataka.gov.in/Contact/ForgotPassword">Click Here</a>
+                            </div>
+                        </div>
+
+                        <!--Captcha-->
+                        <div class="captcha">
+                            <div class="label captcha-item">Enter Captcha</div>
+
+                            <div class="captcha-items captcha-item">
+                                <div class="captcha-image">
+                                    <img src="./images/captcha.png" alt="captcha">
+                                </div>
+
+                                <div class="refresh-captcha cursor-pointor captcha-item">
+                                    <i class="fa-solid fa-rotate-right"></i>
+                                </div>
+
+                                <div class="captcha-enter captcha-item">
+                                <input class="inputs captcha-input" type="text" placeholder="Enter Captcha">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--Login Button-->
+                        <div class="login">
+                            <div class="login-icon cursor-pointor">
+                                Log In
+                            </div>
                         </div>
                     </div>
                 </div>

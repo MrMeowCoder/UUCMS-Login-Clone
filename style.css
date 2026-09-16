@@ -61,7 +61,7 @@
 }
 
 /* Hovering */
-.font-resizing-elements:hover {
+.cursor-pointor:hover {
     cursor: pointer;
 }
 
@@ -74,12 +74,44 @@
     display: flex;
     flex-wrap: wrap;
     padding: 6px 0;
+    position: relative;
 }
 
 .nav-bar-element {
     display: flex;
     justify-content: center;
     width: 25%;
+}
+
+/* Language Translation */
+.translate-language {
+    height: 32px;
+    width: 32px;
+    background-color: #EF731B;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: row;
+    position: absolute;
+    right: 2%;
+    top: 28%;
+    font-weight: 500;
+}
+
+.language-letters {
+    margin: -2px 0;
+}
+
+.language-english {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    right: 5px;
+}
+
+.language-hindi {
+    position: absolute;
+    top: 0;
 }
 
 /* Main Content */
@@ -190,10 +222,6 @@ main {
     border-radius: 3px;
 }
 
-/* .input-data-password {
- TODO:
-} */
-
 .inputs::placeholder {
     font-size: 16px;
 }
@@ -217,12 +245,18 @@ main {
 }
 
 /* Forgot Password */
-.forgot-password p{
-    color: white;
-    font-size: 11.2px;
+
+.forgot-password-items {
     display: flex;
     justify-content: end;
-    margin: 10px;
+}
+
+.forgot-items{
+    color: white;
+    font-size: 11.2px;
+    margin: 3px;
+    display: inline;
+    margin-top: 10px;
 }
 
 .forgot-pass-link {
@@ -230,3 +264,72 @@ main {
     text-decoration: none;
 }
 
+/* Captcha */
+.captcha-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.label {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.captcha-image {
+    height: 40px;
+    width: 200px;
+    display: flex;
+}
+
+.captcha-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.refresh-captcha {
+    height: 40px;
+    width: 40px;
+    background-color: #0A429B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-rotate-right {
+    color: white;
+    font-size: 20px;
+}
+
+.captcha-enter {
+    width: 25%;
+}
+
+/* Login Button */
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-icon {
+    color: white;
+    background-color: #007BFF;
+    height: 38px;
+    width: 32%;
+    margin: 8px 0px 0px;
+    padding: 6px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .25rem;
+}
+
+.login-icon:hover {
+    background-color: #0069D9;
+}
+
+.login-icon:focus {
+    border: 5px solid #1C56A5;
+    background-color: yellow;
+}
