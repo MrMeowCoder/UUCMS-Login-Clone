@@ -128,12 +128,18 @@ main {
     align-items: center;
 }
 
+.back-to-home a {
+    color: #EF731B;
+    text-decoration: none;
+    
+}
+
 /* Main Login Content */
 .outer-login-box {
     margin: 2px;
     background-color: #07294D;
     width: 50%;
-    height: 500px;
+    /* height: 500px; */
     display: flex;
     justify-content: center;
     justify-self: center;
@@ -174,6 +180,14 @@ main {
     font-weight: 500;
     background-color: #D3D3D3;
     /* white-space: nowrap; */
+}
+
+.login-type-element:hover {
+    color: #0A58CA;
+}
+
+.login-type-student:hover {
+    color: white;
 }
 
 .login-type-admin {
@@ -226,6 +240,7 @@ main {
     outline: none;
     caret-color: white;
     border-radius: 3px;
+    color: white;
 }
 
 .inputs::placeholder {
