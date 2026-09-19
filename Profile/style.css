@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "segoe UI";
+    box-sizing: border-box;
+}
+
+.top-nav-bar {
+    background-color: #07294D;
+    /* min-height: 35px; */
+    padding: 5px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.85em;
+    flex-wrap: wrap;
+}
+
+.top-nav-bar-element {
+    display: inline;
+}
+
+.contact-mail {
+    color: white;
+    margin-left: -3px;
+}
+
+.fa-envelope {
+    color: #428BCA;
+    font-size: .8em;
+}
+
+/* Resizing Buttons */
+
+.font-resizing {
+    margin-right: 18px;
+    height: 25px;
+}
+
+.theams {
+    padding: 3px 10px;
+    margin-right: 5px;
+}
+
+.dark-theam-icon {
+    background-color: black;
+    color: white;
+}
+
+.light-theam-icon {
+    background-color: white;
+}
+
+.resize-button {
+    padding: 0 5px;
+    height: 100%;
+    border-radius: 0px;
+}
+
+/* Hovering */
+.cursor-pointor:hover {
+    cursor: pointer;
+}
+
+.theams:hover {
+    text-decoration: underline;
+}
+
+/* second level nav bar (Images) */
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 6px 0;
+    position: relative;
+}
+
+.nav-bar-element {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+
+/* Language Translation */
+.translate-language {
+    height: 32px;
+    width: 32px;
+    background-color: #EF731B;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: row;
+    position: absolute;
+    right: 2%;
+    top: 28%;
+    font-weight: 500;
+}
+
+.language-letters {
+    margin: -2px 0;
+}
+
+.language-english {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    right: 5px;
+}
+
+.language-hindi {
+    position: absolute;
+    top: 0;
+}
+
+/* Student Navigation Bar */
+.student-dropdown-box {
+    display: relative;
+}
+
+.nav-options-and-profile {
+    display: flex;
+    width: 100%;
+    background-color: #07294D;
+    color: white;
+    padding: 8px 29px;
+    justify-content: space-between;
+
+}
+
+.nav-options, .nav-profile{
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-option {
+    display: relative;
+
+    border-right: 1px solid white;
+    padding: 8px;
+}
+
+.nav-option-help-desk {
+    border: none;
+}
+
+.nav-option:hover {
+    color: #C1C9D2;
+}
+
+/* Dropdown Menus */
+.dropdown-menu {
+    display: none;
+
+    position: absolute;
+
+    color: black;
+    background-color: white;
+    font-weight: normal;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.dropdown-menu a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding: 9px 24px;
+}
+
+.dropdown-menu a:hover {
+    color: #0c224b;
+}
+
+.dropdown-boxes:hover .dropdown-menu {
+    display: block;
+}
+
+
+/* Profile */
+.nav-profile {
+    position: relative;
+    height: 38px;
+    width: 50px;
+    background-color: #04AA6D;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-dropdown-menu {
+    background-color: #04AA6D;
+}
+
+.profile-dropdown-menu a{
+    color: white;
+}
+
+.profile-dropdown-menu:hover a{
+    color: white;
+}
+
+/* Name and college address */
+.name-address {
+    display: flex;
+    justify-content: end;
+    padding: 0 25px;
+    margin-bottom: 16px;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* Main */
+
+.outer-dashboard {
+    padding: 0 15px;
+}
+
+.dashboard {
+    margin-bottom: 16px;
+    padding: 12px 16px;
+    background-color: #E9ECEF;
+}
+
+.dashboard p{
+    display: inline;
+}
+
+.dashboard a{
+    text-decoration: none;
+    color: #0D6EFC;
+}
+
+.dashboard:hover a{
+    color: #0A58D0;
+}
+
+/* --------------------------------------------------------------------------- */
+
+/* Footer */
+footer {
+    color: white;
+    margin: 10px 0 0;
+}
+
+.disclimer-section {
+    padding-top: 2px;
+}
+
+.titles {
+    display: inline;
+    color: #EF731B;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-block {
+    background-color: #07294D;
+    padding: 0 32px;
+}
+
+.title-describe {
+    font-size: 12px;
+    margin: 4px 0px 16px;
+    text-align: center;
+    line-height: 24px;
+}
+
+.legal-policy a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Last footer */
+.last-footer {
+    height: 40px;
+}
+
+.copyright {
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}

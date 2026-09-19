@@ -111,6 +111,8 @@
     top: 0;
 }
 
+/* ---------------------------------------------------------------------------------------------------- */
+
 /* Main Content */
 main {
     background-image: url("./images/background.png");
@@ -349,6 +351,10 @@ main {
     align-self: center;
 }
 
+.login-regester a {
+    text-decoration: none;
+}
+
 .login-icon:hover {
     background-color: #0069D9;
 }
@@ -378,6 +384,8 @@ main {
 .download-student-manual {
     margin: 16px 0px 0px;
 }
+
+/* --------------------------------------------------------------------------- */
 
 /* Footer */
 footer {
