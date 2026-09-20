@@ -259,6 +259,7 @@
     padding-top: 20px;
     padding-bottom: 110px;
 }
+
 .card-content-element {
     display: inline-block;
     background-color: #007BFF;
@@ -266,6 +267,11 @@
     border-radius: 5px;
     color: white;
 }
+
+.card-content-element:hover {
+    background-color: #0069D9;
+}
+
 
 /* Flowbits */
 .flowbits {
@@ -280,6 +286,11 @@
     border-radius: 5px;
     color: white;
 }
+
+.flowbits p:hover {
+    background-color: #0069D9;
+}
+
 
 /* --------------------------------------------------------------------------- */
 
