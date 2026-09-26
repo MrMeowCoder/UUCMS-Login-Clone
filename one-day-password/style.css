@@ -183,7 +183,8 @@
     outline: none;
     caret-color: white;
     border-radius: 3px;
-    color: white;
+    caret-color: black;
+    font-size: 18px;
 }
 
 .submit-button {
