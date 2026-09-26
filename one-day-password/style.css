@@ -148,6 +148,12 @@
 }
 
 /* enter and submit */
+.odt-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .odt-options {
     display: flex;
     flex-direction: column;
@@ -157,8 +163,15 @@
 }
 
 .odt-options p {
+    margin-bottom: 8px;
+    padding: 0 12px;
+    align-self: flex-start;
     font-weight: normal;
     color: black;
+}
+
+.odt-options p span{
+    color: red;
 }
 
 .inputs {
@@ -171,6 +184,15 @@
     caret-color: white;
     border-radius: 3px;
     color: white;
+}
+
+.submit-button {
+    padding: 9px 12px;
+    background-color: #007BFF;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
 }
 
 /* --------------------------------------------------------------------------- */
